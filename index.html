@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Retail Store Sales Analysis</title>
+
+  <!-- Open Graph meta tags -->
+  <meta property="og:title" content="Retail Store Sales Analysis">
+  <meta property="og:description" content="A comprehensive analysis of retail store sales data to uncover insights, identify trends and insights. Includes data cleaning, EDA, and visualization techniques.">
+  <meta property="og:image" content="./assets/image/display-pic.jpg">
+  <meta property="og:url" content="jha-rajnish.github.io/retail_store_sales_analysis">
+  <meta property="og:type" content="Project">
+
+  <!-- favicon -->
+  <link rel="icon" type="image/svg+xml" sizes="any" href="./assets/icon/favicon.svg">
+  <link rel="apple-touch-icon" href="./assets/icon/favicon.png">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+<div id="backgroundBlur" class="background-blur"></div>
+<div class="container content-container">
+  <div align="center" class="heading1">
+    Retail Store Sales Analysis
+  </div>
+  <div class="divider-rounded"></div>
+
+  <div class="heading2">
+    Project Objective
+  </div>
+  <div class="divider-dashed"></div>
+  <p class="paragraph">
+    To develop a comprehensive sales report for the year 2023 that provides valuable insights into customer behavior and sales trends.
+    This report aims to equip the store owner with the necessary data to understand their customer base better and to formulate strategies to maximize sales in 2024.
+  </p>
+  
+  <div align="center" class="heading2">
+  <h2>Dashboard</h2>
+  </div>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active" id="slide1">
+        <img src="./assets/dashboard/Page-01.jpg" class="img-thumbnail" alt="Page-01">
+      </div>
+    </div>
+  </div>
+
+  <div style="display: flex; justify-content: space-between;">
+    <div class="heading3">
+      <h3>
+        🛠️Software Toolkits:
+      </h3>
+    </div>
+    <div class="software-toolkit">
+      <a href="https://www.databricks.com/" target="_blank">
+        <img src="./assets/icon/Databricks.png" alt="Databricks" height="25" width="23.4042553191">
+      </a>
+      <a href="https://www.microsoft.com/en-in/microsoft-365/excel" target="_blank">
+        <img src="./assets/icon/Microsoft_Excel.png" alt="Microsoft Excel" height="25" width="28.6259541985">
+      </a>
+      <a href="https://powerbi.microsoft.com/" target="_blank">
+        <img src="./assets/icon/Microsoft_Power-BI.png" alt="Microsoft Power-BI" height="25" width="18.75">
+      </a>
+    </div>
+  </div>
+  <div class="divider-dotted"></div>
+
+    <div align="center" class="heading2">
+      <h2 class="center">
+        🔍Problem Statement📝
+      </h2>
+    </div>
+    <div class="divider-dashed"></div>
+    <p class="paragraph">
+      1. Identify the primary sales channels contributing the most revenue.
+      <br>
+      2. Determine the top-performing state in terms of sales.
+      <br>
+      3. Analyze which garment sizes are driving the highest sales.
+      <br>
+      4. Identify sizes with low demand or poor sales performance.
+      <br>
+      5. Compare purchasing patterns between male and female customers.
+      <br>
+      6. Determine the categories that have achieved the highest sales volumes.
+      <br>
+      7. Evaluate and contrast various order statuses to understand their impact on sales.
+    </p>
+
+    <div class="heading2">
+      <h2 align="center" class="center">
+        📈Analysis Report🧐
+      </h2>
+    </div>
+    <div class="divider-dashed"></div>
+    
+      <div class="question-heading">
+        1. Top Sales Channels:<br>
+        The top three channels in terms of sales in 2023 were:-
+      </div>
+      <p class="paragraph">
+       &nbsp;&nbsp;• Amazon - (₹7.52M/35.51%)🥇<br>
+       &nbsp;&nbsp;• Myntra - (₹4.94M/23.34%)🥈<br>
+       &nbsp;&nbsp;• Flipkart - (₹4.57M/21.60%)🥉<br>
+       <br>
+      </p>
+     
+     <div class="question-heading">
+       2. Top Sales States:<br>
+       The top three states in terms of sales in 2023 were:-
+     </div>
+     <p class="paragraph">
+       &nbsp;&nbsp;• Maharashtra - (₹2.99M/14.12%)<br>
+       &nbsp;&nbsp;• Karnataka - (₹2.65M/12.49%)<br>
+       &nbsp;&nbsp;• Uttar Pradesh - (₹2.10M/9.93%)<br>
+       &nbsp;&nbsp;• Telangana - (₹1.71M/8.08%)<br>
+       &nbsp;&nbsp;• Tamil Nadu - (₹1.68M/7.92%)<br>
+       <br>
+      </p>
+     
+     <div class="question-heading">
+       3. Size Contribution:<br>
+       These sizes made the highest contribution (Approx - 98%):
+     </div>
+     <p class="paragraph">
+       &nbsp;&nbsp;• M - 17.66%<br>
+       &nbsp;&nbsp;• L - 16.56%<br>
+       &nbsp;&nbsp;• XL - 14.29%<br>
+       &nbsp;&nbsp;• S - 13.45%<br>
+       &nbsp;&nbsp;• XXL - 13.09%<br>
+       &nbsp;&nbsp;• 3XL - 10.78%<br>
+       &nbsp;&nbsp;• XS - 8.06%<br>
+       &nbsp;&nbsp;• Free - 4.53%<br>
+       <br>
+      </p>
+
+     <div class="question-heading">
+       4. Non-Demanding Sizes:
+     </div>
+     <p class="paragraph">
+        &nbsp;&nbsp;• 4XL - 0.36%<br>
+        &nbsp;&nbsp;• 5XL - 0.51%<br>
+        &nbsp;&nbsp;• 6XL - 0.66%<br>
+        <br>
+      </p>
+     
+      <div class="question-heading">
+        5. Top Selling categories:<br>
+        These categories are the primary contributors to maximize sales.
+      </div>
+      <p class="paragraph">
+         &nbsp;&nbsp;• Set - 39.91%<br>
+         &nbsp;&nbsp;• Kurta - 33.64%<br>
+         &nbsp;&nbsp;• Western - 13.09%<br>
+         &nbsp;&nbsp;• Top - 7.06%<br>
+         <br>
+       </p>
+     
+       <div class="question-heading">
+        6. Gender-based Purchases: 👩‍🦰 > 👨
+      </div>
+      <p class="paragraph">
+         &nbsp;&nbsp;• Women - 69.42%<br>
+         &nbsp;&nbsp;• Men - 30.58%<br>
+         <br>
+       </p>
+     
+       <div class="question-heading">
+        7. Order Status:
+      </div>
+      <p class="paragraph">
+         &nbsp;&nbsp;• Delivered - 92.25%<br>
+         &nbsp;&nbsp;• Replaced - 3.36%<br>
+         &nbsp;&nbsp;• Cancelled - 2.71%<br>
+         &nbsp;&nbsp;• Refunded - 1.66%<br>
+         <br>
+       </p>
+
+     <div align="center" class="heading2">
+       <h2>
+         Conclusion📌
+       </h2>
+    </div>
+    <div class="divider-dashed"></div>
+    <p class="paragraph">
+        <strong>1. Minimize Product Replacements:</strong><br>
+        Implement strategies to reduce product replacements and returns to improve customer satisfaction and operational efficiency.
+        <br><br>
+        <strong>2. Prominent Advertising and Promotions:</strong><br>
+        Ensure that advertisements, offers, and coupons are prominently displayed on key e-commerce platforms such as Amazon, Myntra, and Flipkart.
+        <br><br>
+        <strong>3. Highlight High-Selling Categories:</strong><br>
+        Focus on promoting and highlighting the product categories that achieved the highest sales in 2023 to leverage their popularity and boost future sales.
+        <br><br>
+        <strong>4. Expand Sales Channels:</strong><br>
+        Develop and implement strategies to increase sales across additional channels to diversify revenue streams and enhance market reach.
+    </p>
+
+    <div align="right" class="heading3">
+      Connect with me:
+    </div>
+    <p align="right" class="paragraph">
+      <a href="https://linkedin.com/in/jharajnish" target="_blank">
+        <img src="./assets/icon/LinkedIn.svg" alt="LinkedIn" height="25" width="25">
+      </a>
+
+      <a href="https://github.com/jha-rajnish" target="_blank">
+        <img src="./assets/icon/GitHub.svg" alt="GitHub" height="25" width="25.5555555556">
+      </a>
+
+      <a href="https://instagram.com/rajnish_gallery" target="_blank">
+        <img src="./assets/icon/Instagram.svg" alt="Instagram" height="25" width="25">
+      </a>
+    </p>
+
+  <div style="display: flex; justify-content: space-between;">
+    <p class="paragraph">
+      📂 Visit this Repo:<br>
+      <a href="https://github.com/jha-rajnish/retail_store_sales_analysis" target="_blank">
+        Retail Store Sales Analysis
+      </a>
+    </p>
+    <p class="paragraph">
+      ✉ Reach me:<br>
+      <a href="mailto:jharajnish@outlook.in">
+        jharajnish@outlook.in
+      </a>
+    </p>
+  </div>
+  <div class="divider-dotted"></div>
+
+       <!-- Copyright -->
+        <p class="footer-copyright">
+            © 2024 Rajnish Jha, India. All Rights Reserved.
+        </p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="./js/scripts.js" defer></script>
+</body>
+</html>
